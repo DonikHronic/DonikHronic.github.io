@@ -1,0 +1,537 @@
+@media (max-width: 1215px) {
+    .downloads__form button {
+        margin-top: 15px;
+    }
+
+    .downloads__form {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1125px) {
+    .why__about-img img {
+        margin: 0 25px;
+    }
+
+    .support__contact {
+        margin-right: 150px;
+    }
+
+    .support__chat {
+        margin-right: 0;
+    }
+
+    .support__form input,
+    .support__form textarea {
+        width: 265px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .header__top-img {
+        margin: 0 auto 130px;
+    }
+
+    .header__top-img img {
+        width: 300px;
+    }
+
+    .features__img {
+        margin-left: 40px;
+    }
+
+    .features__inner {
+        flex-wrap: wrap;
+    }
+
+    .why__about-img img {
+        width: 215px;
+    }
+
+    .why__about-left__items,
+    .why__about-right__items {
+        width: 330px;
+        margin-bottom: 45px;
+    }
+
+    .items__descr {
+        font-size: 16px;
+    }
+
+    .downloads__form input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .why__about-img img {
+        width: 170px;
+    }
+
+    .why__about-left__items,
+    .why__about-right__items {
+        margin-bottom: 30px;
+    }
+
+    .items__descr {
+        font-size: 16px;
+    }
+
+    .items__title {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .downloads__form {
+        margin-left: 35px;
+    }
+
+    .downloads__form input {
+        margin-right: 0;
+    }
+
+    .store-item {
+        margin-right: 18px;
+    }
+
+    .support__contact {
+        margin: 0 70px;
+    }
+}
+
+@media (max-width: 935px) {
+    .store-item {
+        width: 155px;
+        height: 155px;
+    }
+
+    .store-item img {
+        width: 30px;
+    }
+
+    .store-downloads {
+        font-size: 15px;
+    }
+
+    .downloads {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 926px) {
+    .get__buttons {
+        flex-wrap: wrap;
+        margin-bottom: 125px;
+    }
+
+    .get__btn {
+        margin: 10px 30px;
+    }
+
+    .why__inner {
+        margin-top: 35px;
+    }
+
+    .why__about-img img {
+        margin: 0 15px;
+    }
+
+    .app-img img {
+        width: 230px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 910px) {
+    .store-item {
+        width: 140px;
+        height: 140px;
+    }
+
+    .downloads__img img {
+        width: 650px;
+    }
+}
+
+@media (max-width: 880px) {
+    .why__inner {
+        flex-direction: column;
+    }
+
+    .why__about-left__items,
+    .why__about-right__items {
+        text-align: center;
+    }
+
+    .downloads__inner {
+        flex-direction: column;
+    }
+    
+    .store-item {
+        margin: 0 9px;
+    }
+
+    .downloads__form {
+        margin: 35px auto 0;
+    }
+
+    .downloads__img {
+        margin-top: 45px;
+    }
+
+    .downloads__form input {
+        margin-right: 30px;
+    }
+
+    .support__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support {
+        padding-top: 200px;
+    }
+
+    .support__contact {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .support__contact-phone,
+    .support__contact-message,
+    .support__contact-location {
+        margin-bottom: 30px;
+    }
+
+    .support__chat {
+        margin-top: 15px;
+    }
+
+    .support__chat-title {
+        margin-bottom: 20px;
+    }
+
+    .support__form form {
+        text-align: center;
+    }
+}
+
+@media (max-width: 845px) {
+    .header__top {
+        flex-wrap: wrap;
+    }
+
+    .header__top-img {
+        margin: 60px auto 0;
+    }
+
+    .video__window {
+        margin-top: 65px;
+    }
+
+    .video__img {
+        width: 680px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header__top-info {
+        margin-top: 65px;
+    }
+
+    .header__top-info__title {
+        font-size: 35px;
+    }
+
+    .header__top-info__subtitle {
+        font-size: 14px;
+    }
+
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        text-align: center;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: rgba(24, 39, 65, .8);
+        border-top: 1px solid #fff;
+    }
+
+    .menu__list li {
+        margin-left: 0;
+    }
+
+    .menu__list a {
+        color: #ffffff;
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #fff;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+}
+
+@media (max-width: 780px) {
+    .app-img img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .screenshoots {
+        padding-top: 45px;
+    }
+}
+
+@media (max-width: 720px) {
+    .video__img {
+        width: 550px;
+    }
+    
+    .play-btn img {
+        width: 40px;
+    }
+
+    .downloads__img img {
+        width: 525px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .get__buttons {
+        margin-top: 50px;
+    }
+
+    .features__info {
+        max-width: 450px;
+    }
+
+    .features__img {
+        margin-left: 0;
+    }
+
+    .features {
+        margin-top: 390px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video__img {
+        width: 450px;
+    }
+
+    .video__window {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .downloads__img img {
+        width: 420px;
+    }
+
+    .downloads__form input {
+        width: 200px;
+    }
+
+    .form__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .features__img img {
+        width: 380px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video__img {
+        width: 360px;
+    }
+
+    .play-btn img {
+        width: 30px;
+    }
+
+    .downloads__store {
+        flex-direction: column;
+    }
+
+    .store-item {
+        margin: 15px auto;
+    }
+
+    .downloads__inner {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .get__btn a {
+        width: 300px;
+    }
+
+    .get__btn div {
+        font-size: 17px;
+    }
+
+    .get__btn img {
+        margin-right: 20px;
+        width: 28px;
+    }
+
+    .downloads__img img {
+        width: 300px;
+    }
+
+    .downloads__form input {
+        margin-right: 0;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .downloads__form {
+        text-align: center;
+    }
+    
+    .footer__inner {
+        margin: 30px 0;
+    }
+
+    .footer__social {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        margin-top: 7px;
+        font-size: 13px;
+    }
+
+    .get-bg {
+        padding-top: 85px;
+    }
+
+    .get__btn a {
+        width: 270px;
+        padding: 15px 0;
+    }
+
+    .features__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .features__item {
+        margin: 25px 12px;
+    }
+
+    .features {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .features__img img {
+        width: 270px;
+    }
+    
+    .why__about-left__items,
+    .why__about-right__items {
+        width: 255px;
+    }
+    
+    .items__title {
+        font-size: 15px;
+    }
+
+    .items__descr {
+        font-size: 14px;
+    }
+
+    .why__about-img img {
+        margin: 0 25px 30px;
+    }
+
+    .video__img {
+        width: 270px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__top {
+        margin-top: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .header__top-img img {
+        width: 270px;
+    }
+
+    .top-info__btn a {
+        padding: 15px 60px;
+    }
+
+    .features__item {
+        margin: 20px auto;
+    }
+
+    .features__item-img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .features__img img {
+        width: 280px;
+    }
+
+    .downloads__img img {
+        width: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
+
