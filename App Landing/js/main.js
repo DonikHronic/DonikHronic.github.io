@@ -5,8 +5,7 @@ $(function () {
         slidesToScroll: 3,
 		autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow: '<img class="slider-arrows slider-arrows__left" src="/images/left-arrow.png" alt="">',
-        nextArrow: '<img class="slider-arrows slider-arrows__right" src="/images/right-arrow.png" alt="">',
+	arrows: false,
         responsive: [
             {
                 breakpoint: 1290,
