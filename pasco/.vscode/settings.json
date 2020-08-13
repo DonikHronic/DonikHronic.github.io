@@ -1,0 +1,7 @@
+{
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.insertSpaces": false,
+	"editor.wordWrap": "on",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true
+}
