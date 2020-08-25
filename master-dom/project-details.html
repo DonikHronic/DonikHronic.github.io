@@ -9,6 +9,7 @@
 		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&family=Russo+One&display=swap"
 		rel="stylesheet">
 	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="css/slick.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -270,9 +271,19 @@
 					</div>
 				</div>
 				<div class="details__images">
-					<img class="details__images-img" src="images/details-big-img.jpg" alt="">
-					<img class="details__images-img active" src="images/details-big-img2.jpg" alt="">
-					<img class="details__images-img" src="images/details-big-img.jpg" alt="">
+					<div class="details__images-main">
+						<a data-fancybox="gallery" href="images/details-big-img-01.jpg">
+							<img class="main-img" src="images/details-small-img-01.jpg" alt="">
+						</a>
+					</div>
+					<div class="details__images-mini">
+						<a data-fancybox="gallery" href="images/details-big-img-02.jpg">
+							<img src="images/details-small-img-02.jpg" alt="">
+						</a>
+						<a data-fancybox="gallery" href="images/details-big-img-03.jpg">
+							<img src="images/details-small-img-03.jpg" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -416,6 +427,7 @@
 		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
